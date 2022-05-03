@@ -25,6 +25,7 @@ a {
     color: inherit;
 }
 
+/* HERO SECTION */
 
 header {
     width: 100%;
@@ -136,4 +137,33 @@ nav .hamburger {
     -webkit-background-clip: text;
     color: transparent;
     font-size: 2rem;
+}
+
+/* GALLERY SECTION */
+
+main {
+    height: auto;
+    background-image: linear-gradient(to right top, #fcffa6, #edffae, #e0ffb8, #d5ffc1, #cbffcb, #bdfed5, #b2fcdf, #aafae9, #a2f5f5, #a2eefd, #a9e6ff, #b5deff);
+}
+
+.gallery {
+    width: 90%;
+    padding: 3rem 2rem;
+    margin-inline: auto;
+}
+
+.gallery-imgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 100%;
+    background-color: #;
+}
+
+.gallery-imgs img {
+    width: 30%;
+    box-shadow:
+        -50px -50px 0 -45px rgba(0, 0, 0, 0.8),
+        50px 50px 0 -45px rgba(0, 0, 0, 0.8);
 }
